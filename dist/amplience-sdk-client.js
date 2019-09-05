@@ -5762,7 +5762,8 @@ amp.stats.event = function(dom,type,event,value){
 
 
                 if (self.options.plugins && self.options.plugins['videoJsResolutionSwitcher'] && self.options.plugins['videoJsResolutionSwitcher'].default) {
-                    self._player.on('ready', function () {
+                  self._player.currentResolution(self.options.plugins['videoJsResolutionSwitcher'].default);
+                  self._player.on('ready', function () {
                         self._player.currentResolution(self.options.plugins['videoJsResolutionSwitcher'].default);
                         self._allowResolutionChange = false;
                     });
