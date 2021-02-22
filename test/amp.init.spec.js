@@ -25,19 +25,19 @@ describe('amp.init', function(){
             cache_window: 2000,
             default_size: 200,
             client_id: "chris_test_2",
-            di_basepath: "http://i1-orig-qa.adis.ws/",
+            di_basepath: "http://cdn.media.amplience-qa.net/",
             stats: [function(dom,type,event,value){},function(dom,type,event,value){}]
         });
 
         expect (amp.conf.cache_window).toEqual(2000);
         expect (amp.conf.default_size).toEqual(200);
         expect (amp.conf.client_id).toEqual("chris_test_2");
-        expect (amp.conf.di_basepath).toEqual("http://i1-orig-qa.adis.ws/");
+        expect (amp.conf.di_basepath).toEqual("http://cdn.media.amplience-qa.net/");
     });
 
     it("amp.getAssetURL should return a url string combining di_basepath, company_id, asset type and name", function() {
         var client_id = "chris_test_2",
-            di_basepath = "http://i1-orig-qa.adis.ws/",
+            di_basepath = "http://cdn.media.amplience-qa.net/",
             asset_name = "ugly-shoes",
             asset_type = "s";
 

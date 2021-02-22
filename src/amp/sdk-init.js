@@ -9,8 +9,8 @@ amp.conf = {
     "cache_window": 21600000,
     "default_size": 190,
     "client_id":null,
-    "di_basepath":'http://i1.adis.ws/',
-    "content_basepath": "http://c1.adis.ws/",
+    "di_basepath":'https://cdn.media.amplience.net/',
+    "content_basepath": "http://cdn.c1.amplience.net/",
     "err_img":null
 };
 

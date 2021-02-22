@@ -3,7 +3,7 @@
     "items": [
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/1",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/1",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",
@@ -11,7 +11,7 @@
         },
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/4",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/4",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",
@@ -21,13 +21,13 @@
             "type": "set",
             "name": "spin",
             "setType": "spin",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/s\/processJobs_01\/spin",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/s\/processJobs_01\/spin",
             "set": {
                 "type": "list",
                 "items": [
                     {
                         "type": "img",
-                        "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/1",
+                        "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/1",
                         "width": 2000,
                         "height": 2000,
                         "format": "JPEG",
@@ -35,7 +35,7 @@
                     },
                     {
                         "type": "img",
-                        "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/5",
+                        "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/5",
                         "width": 2000,
                         "height": 2000,
                         "format": "JPEG",
@@ -43,7 +43,7 @@
                     },
                     {
                         "type": "img",
-                        "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/4",
+                        "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/4",
                         "width": 2000,
                         "height": 2000,
                         "format": "JPEG",
@@ -55,7 +55,7 @@
         },
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/5",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/5",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",
@@ -63,7 +63,7 @@
         },
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/6",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/6",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",
@@ -71,7 +71,7 @@
         },
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/2",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/2",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",
@@ -79,7 +79,7 @@
         },
         {
             "type": "img",
-            "src": "http:\/\/i1-orig-qa.adis.ws\/i\/processJobs_01\/3",
+            "src": "http:\/\/cdn.media.amplience-qa.net\/i\/processJobs_01\/3",
             "width": 2000,
             "height": 2000,
             "format": "JPEG",

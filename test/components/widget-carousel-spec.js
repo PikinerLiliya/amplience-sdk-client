@@ -142,7 +142,7 @@ describe('amp.ampCarousel', function(){
 
             amp.init({
                 client_id: "fake_client",
-                di_basepath: "http://i1-orig-qa.adis.ws/"
+                di_basepath: "http://cdn.media.amplience-qa.net/"
             });
 
             var loop = jasmine.createSpy('loop');

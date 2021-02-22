@@ -9,7 +9,7 @@ describe('amp.ampSpin', function(){
         jasmine.Clock.useMock();
         amp.init({
             client_id: "fake_client",
-            di_basepath: "http://i1-orig-qa.adis.ws/",
+            di_basepath: "http://cdn.media.amplience-qa.net/",
             stats: [function(dom,type,event,value){},function(dom,type,event,value){}]
         });
     });
@@ -17,9 +17,9 @@ describe('amp.ampSpin', function(){
     describe('methods', function(){
 
         it('should spin when dragging', function(){
-            setFixtures('<ul id="spin-test"><li><img src="http://i1-orig-qa.adis.ws/i/chris_test_2/1?w=500"></li>' +
-                '<li><img src="http://i1-orig-qa.adis.ws/i/chris_test_2/2?w=500"></li>' +
-                '<li><img src="http://i1-orig-qa.adis.ws/i/chris_test_2/3?w=500"></li>' +
+            setFixtures('<ul id="spin-test"><li><img src="http://cdn.media.amplience-qa.net/i/chris_test_2/1?w=500"></li>' +
+                '<li><img src="http://cdn.media.amplience-qa.net/i/chris_test_2/2?w=500"></li>' +
+                '<li><img src="http://cdn.media.amplience-qa.net/i/chris_test_2/3?w=500"></li>' +
                 '<li><img src="http://placehold.it/350x150/0000ff"></li>' +
                 '<li><img src="http://placehold.it/350x150/ffff00"></li>' +
                 '<li><img src="http://placehold.it/350x150/00ffff"></li>' +

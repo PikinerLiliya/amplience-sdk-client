@@ -14,8 +14,8 @@ To use our DI services you will need to initialise the SDK with your client ID i
 
     amp.init({
         "client_id": "playground",
-        "di_basepath": "http://i1.adis.ws/",
-        "err_img": "http://i1.adis.ws/i/playground/404"
+        "di_basepath": "https://cdn.media.amplience.net/",
+        "err_img": "https://cdn.media.amplience.net/i/playground/404"
     });
                 
 ## Retrieving Asset Data
@@ -36,7 +36,7 @@ To get JSON data from DI, you can use `amp.get(Object | Array,function,function)
             "height": 5000,
             "format": "JPEG",
             "status": "ok",
-            "url": "http://i1.adis.ws/i/playground/mens_winter_season",
+            "url": "https://cdn.media.amplience.net/i/playground/mens_winter_season",
             "name": "mens_winter_season"
         }
     }
@@ -56,7 +56,7 @@ Set data:
             "items": [
                 {
                     "type": "img",
-                    "src": "http://i1.adis.ws/i/playground/bag-3d_01-01",
+                    "src": "https://cdn.media.amplience.net/i/playground/bag-3d_01-01",
                     "width": 3398,
                     "height": 3364,
                     "format": "JPEG",
@@ -64,7 +64,7 @@ Set data:
                 },
                 {
                     "type": "img",
-                    "src": "http://i1.adis.ws/i/playground/bag-3d_01-02",
+                    "src": "https://cdn.media.amplience.net/i/playground/bag-3d_01-02",
                     "width": 3398,
                     "height": 3364,
                     "format": "JPEG",
@@ -72,14 +72,14 @@ Set data:
                 },
                 {
                     "type": "img",
-                    "src": "http://i1.adis.ws/i/playground/bag-3d_01-03",
+                    "src": "https://cdn.media.amplience.net/i/playground/bag-3d_01-03",
                     "width": 3398,
                     "height": 3364,
                     "format": "JPEG",
                     "opaque": "true"
                 }...
             ],
-            "url": "http://i1.adis.ws/s/playground/bag_spin"
+            "url": "https://cdn.media.amplience.net/s/playground/bag_spin"
         }
     }
     */
@@ -104,12 +104,12 @@ Video data:
              "description":"",
              "mainLink":"",
              "mainThumb":{
-                "src":"http://i1.adis.ws/v/playground/fashion_video_may_13/thumbs/38089ad7-f703-4542-a4eb-8b5270722559"
+                "src":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13/thumbs/38089ad7-f703-4542-a4eb-8b5270722559"
              }
           },
           "media":[
              {
-                "src":"http://i1.adis.ws/v/playground/fashion_video_may_13/webm_240p",
+                "src":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13/webm_240p",
                 "profile":"webm_240p",
                 "profileLabel":"Low",
                 "protocol":"http",
@@ -125,7 +125,7 @@ Video data:
                 "aspect":null
              },
              {
-                "src":"http://i1.adis.ws/v/playground/fashion_video_may_13/mp4_240p",
+                "src":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13/mp4_240p",
                 "profile":"mp4_240p",
                 "profileLabel":"Low",
                 "protocol":"http",
@@ -144,14 +144,14 @@ Video data:
           "thumbs":[
              {
                 "time":0,
-                "src":"http://i1.adis.ws/v/playground/fashion_video_may_13/thumbs/frame_0000"
+                "src":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13/thumbs/frame_0000"
              },
              {
                 "time":266,
-                "src":"http://i1.adis.ws/v/playground/fashion_video_may_13/thumbs/frame_0001"
+                "src":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13/thumbs/frame_0001"
              }...
           ],
-          "url":"http://i1.adis.ws/v/playground/fashion_video_may_13",
+          "url":"https://cdn.media.amplience.net/v/playground/fashion_video_may_13",
           "name":"fashion_video_may_13"
        }
     }
@@ -161,15 +161,15 @@ Video data:
 
 There are many DI transforms we can set, either though the JSON or on an individual URL string.
 
-![width](http://i1.adis.ws/i/playground/mens_winter_season.jpg?w=300)
+![width](https://cdn.media.amplience.net/i/playground/mens_winter_season.jpg?w=300)
 
 `amp.di.width(url, 300)`
 
-![crop](http://i1.adis.ws/i/playground/mens_winter_season.jpg?crop=2636,1160,300,200)
+![crop](https://cdn.media.amplience.net/i/playground/mens_winter_season.jpg?crop=2636,1160,300,200)
 
 `amp.di.crop(url, '2636,1160,300,200')`
 
-![greyscale](http://i1.adis.ws/i/playground/mens_winter_season.jpg?w=1800&cs=gray&crop=1520,60,200,400)
+![greyscale](https://cdn.media.amplience.net/i/playground/mens_winter_season.jpg?w=1800&cs=gray&crop=1520,60,200,400)
 
     amp.di.set(url, {
         'width':1800,
@@ -192,8 +192,8 @@ Once we have our JSON you can either use the genHTML function to create DOM, or 
 
     <div id="contents">
         <ul id="bike_set">
-            <li><img id="shutterstock_135697520" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_135697520?w=190"></li>
-            <li><img id="shutterstock_65540557" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_65540557?w=190"></li>
+            <li><img id="shutterstock_135697520" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_135697520?w=190"></li>
+            <li><img id="shutterstock_65540557" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_65540557?w=190"></li>
         </ul>
     </div>
 
@@ -233,10 +233,10 @@ Result:
             <div class="previousThumbnail"></div>
             <ul id="nav">
                 <li>
-                    <img src="http://i1.adis.ws/i/playground/shutterstock_135697520?w=90" alt="" class="amp-main-img">
+                    <img src="https://cdn.media.amplience.net/i/playground/shutterstock_135697520?w=90" alt="" class="amp-main-img">
                 </li>
                 <li>
-                    <img src="http://i1.adis.ws/i/playground/shutterstock_65540557?w=90" alt="" class="amp-main-img">
+                    <img src="https://cdn.media.amplience.net/i/playground/shutterstock_65540557?w=90" alt="" class="amp-main-img">
                 </li>
             </ul>
             <div class="nextThumbnail"></div>
@@ -254,8 +254,8 @@ Starting HTML:
 
     <div id="contents">
         <ul id="bike_set" style="width:400px;height:300px;margin:auto">
-            <li><img id="shutterstock_135697520" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_135697520?w=400"></li>
-            <li><img id="shutterstock_65540557" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_65540557?w=400"></li>
+            <li><img id="shutterstock_135697520" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_135697520?w=400"></li>
+            <li><img id="shutterstock_65540557" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_65540557?w=400"></li>
         </ul>
     </div>
 
@@ -269,8 +269,8 @@ Starting HTML:
 
     <div id="contents">
         <ul id="bike_set_2" style="width:400px;height:300px;margin:auto" data-amp-carousel="{&quot;autoplay&quot;:true,&quot;layout&quot;:&quot;carousel3D&quot;}">
-            <li><img id="shutterstock_135697520" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_135697520?w=400"></li>
-            <li><img id="shutterstock_65540557" class="amp-main-img" src="http://i1.adis.ws/i/playground/shutterstock_65540557?w=400"></li>
+            <li><img id="shutterstock_135697520" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_135697520?w=400"></li>
+            <li><img id="shutterstock_65540557" class="amp-main-img" src="https://cdn.media.amplience.net/i/playground/shutterstock_65540557?w=400"></li>
         </ul>
     </div>
     

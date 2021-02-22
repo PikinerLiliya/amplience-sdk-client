@@ -234,7 +234,7 @@ describe('amp.ampZoom', function(){
                 (function(arr) {
                     xit('should have correct loading state whilst loading / loading gif -'  + arr, function(){
                         makeCombinations(arr);
-                        setFixtures('<img id="zoom-test" src="http://i1-orig-qa.adis.ws/i/chris_test_2/5?w=500">');
+                        setFixtures('<img id="zoom-test" src="http://cdn.media.amplience-qa.net/i/chris_test_2/5?w=500">');
                         var $zoom = $('#zoom-test').ampZoom({zoom:10 });
                         var zoom = $zoom.data('amp-ampZoom');
                         expect(zoom._loading).toBe(true);

@@ -1,5 +1,5 @@
 /**
- * amp amplience-sdk-client v0.1.0
+ * amp amplience-sdk-client v0.1.1
  *
  * @class amp
  */
@@ -804,8 +804,8 @@ amp.conf = {
     "cache_window": 21600000,
     "default_size": 190,
     "client_id":null,
-    "di_basepath":'http://i1.adis.ws/',
-    "content_basepath": "http://c1.adis.ws/",
+    "di_basepath":'https://cdn.media.amplience.net/',
+    "content_basepath": "https://cdn.c1.amplience.net/",
     "err_img":null
 };
 
@@ -2074,7 +2074,7 @@ amp.stats.event = function(dom,type,event,value){
 }());
 
 }());
-// amplience-sdk-client v0.1.0
+// amplience-sdk-client v0.1.1
 (function ( $ ) {
     $.widget( "amp.ampStack", {
         // Default options.
